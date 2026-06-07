@@ -110,9 +110,9 @@
 
     pdf["setTextColor"]( 0, 0, 255 );
     pdf["textWithLink"](
-        'sleepdiary.github.io',
+        'zeitdex.github.io',
         67.2, 150 + 4.875 * (text_a.length+text_b.length) - 0.1,
-        { url: 'https://sleepdiary.github.io' }
+        { url: 'https://zeitdex.github.io' }
     );
     pdf["setTextColor"]( 0 );
 
